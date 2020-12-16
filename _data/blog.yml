@@ -1,28 +1,30 @@
-# blog authors
 authors:
-  - name: "Blog Author"
-    headline: "Awesome blogger."
-    avatar: "awesome_author.svg" # display_picture.jpg
+  - name: Blog Author
+    headline: Awesome blogger.
+    avatar: awesome_author.svg
     follow:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: # link
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: # link
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: # link
-    # twitter card info for seo
+      - label: GitHub
+        icon: fab fa-fw fa-github
+        url: null
+      - label: LinkedIn
+        icon: fab fa-fw fa-linkedin
+        url: null
+      - label: Twitter
+        icon: fab fa-fw fa-twitter
+        url: null
     twitter:
-      creator: "@mani_d2"
-      card: "summary"
-
-# blog post share links
+      creator: '@mani_d2'
+      card: summary
+  - name: lorem-ipsum
+    headline: lorem-ipsum
+    follow: []
+    twitter:
+      creator: lorem-ipsum
+      card: lorem-ipsum
 share:
-  - label: "LinkedIn"
-    icon: "fab fa-fw fa-linkedin"
-    url: # link
-  - label: "Twitter"
-    icon: "fab fa-fw fa-twitter-square"
-    url: # link
+  - label: LinkedIn
+    icon: fab fa-fw fa-linkedin
+    url: null
+  - label: Twitter
+    icon: fab fa-fw fa-twitter-square
+    url: null
